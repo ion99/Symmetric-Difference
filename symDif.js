@@ -23,4 +23,4 @@ function symDif(args) {
   return result;
 }
 
-symDif([1, 2, 3], [5, 2, 1, 4]);
+//symDif([1, 2, 3], [5, 2, 1, 4]);
