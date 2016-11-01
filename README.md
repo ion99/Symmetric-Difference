@@ -6,8 +6,8 @@ Given two sets (for example set A = {1, 2, 3} and set B = {2, 3, 4}), the mathem
 
 ## Examples:
 
-sym([1, 2, 5], [2, 3, 5], [3, 4, 5]) should return [1, 4, 5],
+symDif([1, 2, 5], [2, 3, 5], [3, 4, 5]) should return [1, 4, 5],
 
-sym([1, 1, 2, 5], [2, 2, 3, 5], [3, 4, 5, 5]) should return [1, 4, 5],
+symDif([1, 1, 2, 5], [2, 2, 3, 5], [3, 4, 5, 5]) should return [1, 4, 5],
 
-sym([3, 3, 3, 2, 5], [2, 1, 5, 7], [3, 4, 6, 6], [1, 2, 3]) should return [2, 3, 4, 6, 7].
+symDif([3, 3, 3, 2, 5], [2, 1, 5, 7], [3, 4, 6, 6], [1, 2, 3]) should return [2, 3, 4, 6, 7].
